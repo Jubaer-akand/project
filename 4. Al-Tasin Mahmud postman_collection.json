@@ -1,0 +1,379 @@
+{
+	"info": {
+		"_postman_id": "028a9fd0-132c-48d1-99dd-f06536a2c36c",
+		"name": "Ostad Project Main",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21019615"
+	},
+	"item": [
+		{
+			"name": "Find Product",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,de;q=0.8,bn;q=0.7"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "If-None-Match",
+						"value": "W/\"3d18-aUxlWbl4/NjhTX/cWImv/J2jfd0\""
+					},
+					{
+						"key": "Referer",
+						"value": "https://demo.evershop.io/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Google Chrome\";v=\"138\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Cookie",
+						"value": "asid=s%3ANdNU4G5JAvzd03btGg3Rr_ToSgzkfae1.7CW4Os%2BBl0Ti%2FPfaxLbzalQwUADhnifAr7oW9hWLTvw; sid=s%3ARDVnP7vI9jHlhljPMML_VTRrWPvidsyA.Mxuf8H0R2pULJsgigP3ZmcrYUm0cIWSvYMKCOA3kgCM; _ga=GA1.2.894567548.1753208298; _gid=GA1.2.210407309.1753208298; __stripe_mid=7f75701e-f33a-4c07-b8aa-6cd9fdde2ac35fdd84"
+					}
+				],
+				"url": {
+					"raw": "https://demo.evershop.io/search?keyword=nike+react",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"evershop",
+						"io"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "keyword",
+							"value": "nike+react"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Select Product",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,de;q=0.8,bn;q=0.7"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "If-None-Match",
+						"value": "W/\"4c48-tVbGXrtUJ2h/Z2cxJzXAfvv7glI\""
+					},
+					{
+						"key": "Referer",
+						"value": "https://demo.evershop.io/search?keyword=nike+react"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Google Chrome\";v=\"138\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Cookie",
+						"value": "asid=s%3ANdNU4G5JAvzd03btGg3Rr_ToSgzkfae1.7CW4Os%2BBl0Ti%2FPfaxLbzalQwUADhnifAr7oW9hWLTvw; sid=s%3ARDVnP7vI9jHlhljPMML_VTRrWPvidsyA.Mxuf8H0R2pULJsgigP3ZmcrYUm0cIWSvYMKCOA3kgCM; _ga=GA1.2.894567548.1753208298; _gid=GA1.2.210407309.1753208298; __stripe_mid=7f75701e-f33a-4c07-b8aa-6cd9fdde2ac35fdd84"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo.evershop.io/nike-react-infinity-run-flyknit-171",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"evershop",
+						"io"
+					],
+					"path": [
+						"nike-react-infinity-run-flyknit-171"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add to cart 1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,de;q=0.8,bn;q=0.7"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "If-None-Match",
+						"value": "W/\"556d-RfKaEXPthWipLF1rstfE3SZrO4E\""
+					},
+					{
+						"key": "Referer",
+						"value": "https://demo.evershop.io/nike-react-infinity-run-flyknit-171?size=5&color=17"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Google Chrome\";v=\"138\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Cookie",
+						"value": "asid=s%3ANdNU4G5JAvzd03btGg3Rr_ToSgzkfae1.7CW4Os%2BBl0Ti%2FPfaxLbzalQwUADhnifAr7oW9hWLTvw; sid=s%3ARDVnP7vI9jHlhljPMML_VTRrWPvidsyA.Mxuf8H0R2pULJsgigP3ZmcrYUm0cIWSvYMKCOA3kgCM; _ga=GA1.2.894567548.1753208298; _gid=GA1.2.210407309.1753208298; __stripe_mid=7f75701e-f33a-4c07-b8aa-6cd9fdde2ac35fdd84"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"sku\":\"NJC44141-Black-L\",\"qty\":\"1\"}"
+				},
+				"url": {
+					"raw": "https://demo.evershop.io/cart",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"evershop",
+						"io"
+					],
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cart",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,de;q=0.8,bn;q=0.7"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "If-None-Match",
+						"value": "W/\"556d-RfKaEXPthWipLF1rstfE3SZrO4E\""
+					},
+					{
+						"key": "Referer",
+						"value": "https://demo.evershop.io/nike-react-infinity-run-flyknit-171?size=5&color=17"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Google Chrome\";v=\"138\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Cookie",
+						"value": "asid=s%3ANdNU4G5JAvzd03btGg3Rr_ToSgzkfae1.7CW4Os%2BBl0Ti%2FPfaxLbzalQwUADhnifAr7oW9hWLTvw; sid=s%3ARDVnP7vI9jHlhljPMML_VTRrWPvidsyA.Mxuf8H0R2pULJsgigP3ZmcrYUm0cIWSvYMKCOA3kgCM; _ga=GA1.2.894567548.1753208298; _gid=GA1.2.210407309.1753208298; __stripe_mid=7f75701e-f33a-4c07-b8aa-6cd9fdde2ac35fdd84"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://demo.evershop.io/cart",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"evershop",
+						"io"
+					],
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
